@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/abhibc0202/cici-demo.git'
+                git branch: 'main', url: 'https://github.com/abhibc0202/cicd-demo.git'
             }
         }
 
